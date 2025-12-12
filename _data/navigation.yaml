@@ -1,0 +1,12 @@
+# The primary navigation
+cgf:
+  - name: Overview
+    url: /
+  - name: Framework
+    url: /framework/
+  - name: Use Cases
+    url: /usecases/
+  - name: Resources
+    url: /resources/
+  - name: About
+    url: /about/

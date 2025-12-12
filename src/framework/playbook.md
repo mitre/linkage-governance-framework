@@ -1,0 +1,22 @@
+---
+title: Playbook
+description: 'The Playbook'
+permalink: /framework/playbook.html
+layout: layouts/page
+section: framework
+tags: 
+  - cgf
+  - framework
+eleventyNavigation:
+  parent: cgf-framework
+  key: playbook
+  order: 1
+  title: The Playbook for the Framework
+sidenav: true
+sticky_sidenav: true
+---
+
+# The Playbook
+
+Description of the Playbook for the Common Governance Framework.
+

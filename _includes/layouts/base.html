@@ -1,0 +1,21 @@
+{% comment %}
+Base layout used for most pages.
+{% endcomment %}
+<!DOCTYPE html>
+<html lang="en">
+  {% include "metadata.html" %}
+  <body class="display-flex flex-column minh-viewport">
+      {% if tags %}
+        {% assign primary_navigation = navigation[tags] %}
+      {% else %}
+        {% assign primary_navigation = site.primary_navigation %}
+      {% endif %}
+    {% include "header.html" %}
+      
+    {{ content }}
+
+    
+    {% include "footer.html" %}
+
+  </body>
+</html>
