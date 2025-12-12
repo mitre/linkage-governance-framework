@@ -3,10 +3,10 @@ image: node:lts
 create-pages:
   pages:
     # The folder that contains the files to be exposed at the Page URL
-    publish: _site
+    publish: public
   rules:
     # This ensures that only pushes to the default branch will trigger
     # a pages deploy
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
   script:
-    - npx @11ty/eleventy --input=. --output=_site
+    - npx @11ty/eleventy --input=. --output=public
