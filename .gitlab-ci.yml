@@ -12,4 +12,5 @@ create-pages:
     # a pages deploy
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
   script:
+    - npm install
     - npx @11ty/eleventy --input=. --output=public
