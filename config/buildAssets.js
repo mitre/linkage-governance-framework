@@ -29,20 +29,20 @@ async function createAssetPaths() {
   if (process.env.BASEURL) {
     pathPrefix = process.env.BASEURL;
   }
-  const assetPath = path.join(__dirname, '../_site/assets');
+  const assetPath = path.join(__dirname, '../public/assets');
   const assetDirs = await fs.readdir(assetPath);
   
   const assetsFiles = await Promise.all(
     assetDirs.map(async (dir) => {
       const files = [];
       for await (const f of getFilesInDirectory(
-        path.join(__dirname, '../_site/assets', dir),
+        path.join(__dirname, '../public/assets', dir),
       )) {
         files.push(f);
       }
       return files.map((file) => {
         const { name, ext } = path.parse(file);
-        const publicDir = '_site/';
+        const publicDir = 'public/';
         const assetDirs = file.slice(
           file.indexOf(publicDir) + publicDir.length,
         );
@@ -68,7 +68,7 @@ esbuild
       'assets/_common/js/app.js',
     ],
     entryNames: '[dir]/[name]-[hash]',
-    outdir: '_site/assets/',
+    outdir: 'public/assets/',
     format: 'iife',
     loader: {
       '.jpg': 'dataurl',

@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run assets:build && npx @11ty/eleventy",
-    "clean": "rimraf _site",
-    "assets:autoprefix": "postcss _site/assets/styles/*.css -r --use autoprefixer",
+    "clean": "rimraf public",
+    "assets:autoprefix": "postcss public/assets/styles/*.css -r --use autoprefixer",
     "assets:build": "node ./config/buildAssets && npm run assets:autoprefix",
-    "assets:clean": "rimraf _site/assets",
+    "assets:clean": "rimraf public/assets",
     "assets:refresh": "npm run assets:clean && npm run assets:build",
     "assets:watch": "chokidar 'assets/' -c 'npm run assets:refresh' --polling",
     "dev": "npm run clean && npm-run-all -p dev:assets dev:serve",

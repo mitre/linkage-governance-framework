@@ -7,7 +7,7 @@ async function imageData(src) {
 
   const metadata = await Image(src, {
     formats: [fileType],
-    outputDir: './_site/img/',
+    outputDir: './public/img/',
   });
 
   const data = metadata[fileType] ? metadata[fileType][0] : metadata.jpeg[0];

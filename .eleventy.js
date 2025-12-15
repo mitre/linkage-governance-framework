@@ -89,7 +89,7 @@ module.exports = function(config) {
       input: ".",     
       includes: "_includes", 
       data: "_data",
-      output: "_site"
+      output: "public"
     }
   };
 };
