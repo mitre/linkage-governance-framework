@@ -3,7 +3,7 @@ title: About Common Governance Framework
 description: 'Learn more about the Common Governance Framework'
 permalink: /about/
 layout: layouts/page
-tags: cgf
+nav: cgf
 
 ---
 

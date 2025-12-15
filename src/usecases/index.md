@@ -3,6 +3,7 @@ title: Use Cases
 description: 'Example use cases for the Common Governance Framework'
 permalink: /usecases/
 layout: layouts/page
+nav: cgf
 tags: cgf
 eleventyNavigation:
   parent: cgf-usecases

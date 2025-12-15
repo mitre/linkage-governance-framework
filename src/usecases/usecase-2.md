@@ -1,11 +1,11 @@
 ---
 title: Use case 2
 description: 'Example use case 2 for dataset holders'
-permalink: /usecases/usecase-2.html
+permalink: /usecases/usecase-2/
 layout: layouts/page
 section: usecases
+nav: cgf
 tags:
-  - cgf
   - usecase
 eleventyNavigation:
   parent: cgf-usecases

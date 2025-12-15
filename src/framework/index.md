@@ -3,7 +3,7 @@ title: Framework
 description: 'Overview of the Framework'
 permalink: /framework/
 layout: layouts/page
-tags: cgf
+nav: cgf
 eleventyNavigation:
   parent: cgf-framework
   key: cgf-framework-main

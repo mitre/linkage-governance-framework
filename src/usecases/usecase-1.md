@@ -1,11 +1,11 @@
 ---
 title: Use case 1
 description: 'Example use case 1 for investigators'
-permalink: /usecases/usecase-1.html
+permalink: /usecases/usecase-1/
 layout: layouts/page
 section: usecases
+nav: cgf
 tags: 
-  - cgf
   - usecase
 eleventyNavigation:
   parent: cgf-usecases

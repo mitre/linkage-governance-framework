@@ -1,3 +1,5 @@
+require('@uswds/uswds');
+
 /* Placeholder for site javascript */
 
 function doSomething() {

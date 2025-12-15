@@ -3,7 +3,7 @@ title: Resources
 description: 'Resources for the Common Governance Framework'
 permalink: /resources/
 layout: layouts/page
-tags: cgf
+nav: cgf
 
 ---
 

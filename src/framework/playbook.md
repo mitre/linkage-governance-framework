@@ -4,8 +4,8 @@ description: 'The Playbook'
 permalink: /framework/playbook.html
 layout: layouts/page
 section: framework
+nav: cgf
 tags: 
-  - cgf
   - framework
 eleventyNavigation:
   parent: cgf-framework

@@ -2,7 +2,7 @@
 permalink: /
 title: Common Governance Framework Visual Model
 layout: layouts/default
-tags: cgf
+nav: cgf
 eleventyNavigation:
   key: cgf
   order: 1
@@ -11,15 +11,17 @@ description: Common Governance Framework for Linking Individual-level Health Dat
 ---
 
 <div class="usa-section intro-header">
-    <div class="grid-container">
-      <h1 class="visually-hidden">
-        {{ title }}
-      </h1>
-      <p class="usa-intro usa-intro--sections no-print">{{ description }}</p>
-    </div>
+  <div class="grid-container">
+    [Attractive banner section here]
+    <h1 class="visually-hidden">
+      {{ title }}
+    </h1>
+    <p class="usa-intro usa-intro--sections no-print">{{ description }}</p>
   </div>
-  <div class="usa-section layout--sections">
-    <section class="usa-prose grid-container section usa-section section--inbound">
+</div>
+
+<div class="usa-section layout--sections">
+  <section class="usa-prose grid-container section usa-section section--inbound">
 
 # Common Governance Process to Link Individual-level Health data for Research
 
@@ -49,6 +51,5 @@ Linking multiple datasets results in a large and intricate set of inherited gove
 
 Each dataset has its own governance rules, which can overlap or conflict with others. Without a structured process to reconcile these differences, it is challenging to create a single, mutually acceptable set of rules for managing the linked dataset.
 
-</section>
-</div>
+  </section>
 </div>

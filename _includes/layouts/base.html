@@ -5,11 +5,12 @@ Base layout used for most pages.
 <html lang="en">
   {% include "metadata.html" %}
   <body class="display-flex flex-column minh-viewport">
-      {% if tags %}
-        {% assign primary_navigation = navigation[tags] %}
-      {% else %}
-        {% assign primary_navigation = site.primary_navigation %}
-      {% endif %}
+    {% if nav %}
+      {% assign primary_navigation = navigation[nav] %}
+    {% else %}
+      {% assign primary_navigation = site.primary_navigation %}
+    {% endif %}
+      
     {% include "header.html" %}
       
     {{ content }}
@@ -17,5 +18,6 @@ Base layout used for most pages.
     
     {% include "footer.html" %}
 
+    {% include "scripts.html" %}
   </body>
 </html>

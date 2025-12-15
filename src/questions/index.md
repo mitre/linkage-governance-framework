@@ -3,6 +3,7 @@ title: Common Questions
 description: 'Questions and answers about the framework'
 permalink: /questions/
 layout: layouts/page
+nav: cgf
 ---
 
 # Common Governance Framework Common Questions
