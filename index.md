@@ -10,46 +10,30 @@ eleventyNavigation:
 description: Common Governance Framework for Linking Individual-level Health Data for Research
 ---
 
-<div class="usa-section intro-header">
-  <div class="grid-container">
-    [Attractive banner section here]
-    <h1 class="visually-hidden">
-      {{ title }}
-    </h1>
-    <p class="usa-intro usa-intro--sections no-print">{{ description }}</p>
-  </div>
-</div>
-
 <div class="usa-section layout--sections">
   <section class="usa-prose grid-container section usa-section section--inbound">
 
 # Common Governance Process to Link Individual-level Health data for Research
 
-Linking individual level health data from sources such as medical records, insurance claims, and genomic information allows researchers to uncover new patterns and relationships, accelerating discoveries in disease prevention, diagnostics, and treatment. 
+Linking individual-level health data across data sources to connect complementary data types increases the patterns and interrelationships that a researcher may explore to accelerate discoveries for prevention, diagnostics, and treatments. Current biomedical research infrastructure lacks a common governance approach that supports linking data for research, including studies of cancer and patient-centered outcomes research. 
 
 ## What is the common governance framework?
 
-The Common Governance Framework to Link Individual-level Health Data for Research is a structured and innovative framework developed to enable safe, secure, and efficient linkage of individual-level health data across multiple datasets for research. As a proof-of-concept designed for complex linkages, the framework provides a transparent and replicable process for harmonizing governance rules from disparate Dataset Holders.
+The Common Governance Framework to Link Individual-level Health Data for Research (the Common Governance Framework) is a structured approach for seeking approval from Dataset Holders and harmonizing governance rules across datasets to enable safe and secure linkage of individual-level health data for research. The Common Governance Framework is designed for complex linkages where governance makes the linkage of multiple datasets especially difficult. It aims to accelerate access to data by reducing the burden of adjudicating governance conflicts and gaining required approvals. 
 
-{% image_with_class "assets/resources/img/placemat.png" "" "Diagram of Common Governance Framework" %}
+{% image_with_class "assets/resources/img/placemat.png" "img96ex" "Diagram of Common Governance Framework" %}
 
-## How does the framework support linkage of datasets?
+The Common Governance Framework is a proof of concept that requires testing for feasibility, practicality, scalability, and effectiveness. Lessons learned from testing this new approach and process will be used to further refine and enhance the framework with the eventual goal of full-scale implementation and widespread availability across research communities.
 
-The framework supports linkage of datasets by establishing a Coordinating Body that manages a single, central request process and facilitates collaboration between Investigators, Requesting Institutions, and Dataset Holders. It collects and organizes governance rules from all requested datasets, leads the process of mapping and categorizing rules, and drafts a Consolidated Rule Set that resolves overlaps and conflicts.
+## What Does Linking Individual-level Health Data Mean?
 
-## What are the challenges of the current state?
+Linkage and linking data are not terms with single consensus definitions. This Playbook is focused on linking individual-level health data, which is defined as health-related person-level data that is found in electronic health records (EHRs), research repositories, registries, and other data systems and may or may not include **protected health information (PHI)** or **personally identifiable information (PII)**.
 
-### Abandoned research due to governance obstacles
+An individual (patient) often has relevant health data in multiple independent datasets. These **“originating” datasets** can be EHRs that hold clinical records from doctor or hospital visits, national or state health tracking systems such as cancer registries, or research data repositories that hold data from participation in research studies. Individual-level linkage in this Playbook refers to bringing the information present in disparate originating datasets together at an individual level within a resulting linked dataset. This requires recognizing or matching the same individual across the originating datasets. Many methods exist to match individuals across the originating datasets. Some methods require shared identifiers such as names, addresses, dates of birth, and social security numbers. Other methods use common de-identified tokens that are generated from identifiers and known only to the Dataset Holder and an honest broker (e.g., privacy-preserving record linkage or PPRL). For either method, the resulting linked dataset may or may not remove all PII and/or PHI from the originating datasets.
 
-Investigators may be forced to discontinue projects when they encounter insurmountable governance barriers, such as conflicting requirements or prolonged approval timelines, making it impossible to obtain necessary permissions for data linkage.
+By combining data elements at the individual level from all originating datasets, the resulting linked dataset will contain more complete information about an individual. However, the resulting linked dataset will not necessarily include all data elements present in originating datasets. Additionally, the resulting linked dataset will usually include fewer individuals than those present across the originating datasets. Each originating dataset has an independent set of participants so complete information in the resulting dataset will only be available for those individuals present in all originating datasets (the overlap of the originating datasets). The number of individuals in the resulting linked dataset may be further reduced when applying inclusion and/or exclusion criteria such as a specific type of cancer or a desired age range. The size of the study population (number of individuals in the linked dataset) is of crucial importance to the Investigator’s ability to draw statistically meaningful conclusions.
 
-### Governance complexity across datasets
-
-Linking multiple datasets results in a large and intricate set of inherited governance rules. The increasing number and diversity of rules create a complex environment that is difficult to navigate and align for research purposes.
-
-### Difficulty harmonizing policies for linkage
-
-Each dataset has its own governance rules, which can overlap or conflict with others. Without a structured process to reconcile these differences, it is challenging to create a single, mutually acceptable set of rules for managing the linked dataset.
+Once created, linked datasets may be linked with additional data (subject to the governance rules of the linked datasets) to create subsequent linked datasets. As such, data that Investigators want to link may already be a product of previous linkages. These further linkages are only possible if identifying information for the individual is maintained either in the linked dataset or by an honest broker for the linked dataset.
 
   </section>
 </div>
