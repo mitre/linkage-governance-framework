@@ -1,6 +1,6 @@
 ---
 title: Resources
-description: 'Resources for the Common Governance Framework'
+description: 'Resources for the Linkage Governance Framework'
 permalink: /resources/
 layout: layouts/page
 nav: cgf
@@ -9,11 +9,11 @@ nav: cgf
 
 # Resources
 
-There are many resources associated with the Common Governance Framework. You can download some of these files to learn more.
+There are many resources associated with the Linkage Governance Framework. You can download some of these files to learn more.
 
 ## Playbook
 
-You may download the <a href="#">latest version of the Playbook</a>, a detailed description of how the Common Governance Framework can be put into practice.
+You may download the <a href="#">latest version of the Playbook</a>, a detailed description of how the Linkage Governance Framework can be put into practice.
 
 ## Request Package
 

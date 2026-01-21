@@ -18,5 +18,5 @@ sticky_sidenav: true
 
 # The Playbook
 
-Description of the Playbook for the Common Governance Framework.
+Description of the Playbook for the Linkage Governance Framework.
 
