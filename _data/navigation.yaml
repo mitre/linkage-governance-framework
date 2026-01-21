@@ -1,7 +1,9 @@
 # The primary navigation
 cgf:
-  - name: Overview
+  - name: Home
     url: /
+  - name: Problem Overview
+    url: /problem
   - name: Framework
     url: /framework/
   - name: Use Cases

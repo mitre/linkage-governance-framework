@@ -6,7 +6,7 @@ layout: layouts/page
 nav: cgf
 ---
 
-# Common Governance Framework Common Questions
+# Linkage Governance Framework Common Questions
 
 ## Question 1
 

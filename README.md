@@ -1,5 +1,5 @@
-# Common Governance Framework Visual Model
-This website describes the Common Governance Framework.
+# Linkage Governance Framework Visual Model
+This website describes the Linkage Governance Framework.
 
 The site is built using [11ty](https://www.11ty.dev/) static site generator and [U.S. Web Design System v3.0 (USWDS)](https://designsystem.digital.gov/).
 

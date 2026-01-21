@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
+const { EleventyRenderPlugin, HtmlBasePlugin } = require("@11ty/eleventy");
 const pluginNavigation = require('@11ty/eleventy-navigation');
 
 const yaml = require("js-yaml");
@@ -11,6 +11,7 @@ module.exports = function(config) {
   let pathPrefix = '/';
 
   config.addPlugin(EleventyRenderPlugin);
+  config.addPlugin(HtmlBasePlugin);
 
   // Copy the robots.txt file to the output
   config.addPassthroughCopy('robots.txt');
