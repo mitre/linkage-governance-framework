@@ -1,6 +1,7 @@
 const fs = require('fs');
 const { EleventyRenderPlugin, HtmlBasePlugin } = require("@11ty/eleventy");
 const pluginNavigation = require('@11ty/eleventy-navigation');
+const footnote_plugin = require('markdown-it-footnote');
 
 const yaml = require("js-yaml");
 
@@ -12,6 +13,8 @@ module.exports = function(config) {
 
   config.addPlugin(EleventyRenderPlugin);
   config.addPlugin(HtmlBasePlugin);
+
+  config.amendLibrary("md", (mdLib) => mdLib.use(footnote_plugin));
 
   // Copy the robots.txt file to the output
   config.addPassthroughCopy('robots.txt');

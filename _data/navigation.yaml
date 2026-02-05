@@ -6,8 +6,8 @@ cgf:
     url: /problem
   - name: Framework
     url: /framework/
-  - name: Use Cases
-    url: /usecases/
+  - name: User Stories
+    url: /userstories/
   - name: Resources
     url: /resources/
   - name: About

@@ -15,18 +15,22 @@ sticky_sidenav: true
 
 # Problem Overview
 
-## What is individual-level linkage?
+## What is individual-level linkage? Why link it?
 
-People often have health data held in multiple systems. These datasets range from a person’s electronic health record (EHR), to records in stored in repositories from participation in research, health insurance claims, data from wearables, etc. A person’s data, referred to as individual-level health data, from different datasets can be matched and linked to create a new dataset containing more complete information about an individual and her or his health.
+People usually have health data held in multiple systems. These datasets range from a person’s electronic health record (EHR) to records stored in repositories from participation in research studies, health insurance claims, data from wearables, etc. A person’s data or “individual-level health data” from different datasets can be matched and linked creating a combined dataset with more complete information. 
 
-## Why is linkage important for research?
+Linking health data from multiple datasets creates a fuller picture of the person’s health over time. When researchers use linked data, they can study more factors contributing to health and illness. This drives innovative research questions and accelerates discovery.
 
-Linking individual-level health data from multiple systems or datasets creates a fuller picture of the person and his or her health over time. When researchers can study linked data, they can investigate and understand more factors contributing to health and illness. This can drive innovative research questions and accelerate discoveries that ultimately improve health.
+## Why is linking difficult? How does governance for linkage work today?
 
-## What are the current barriers to linkage?
+There are challenges when linking individual-level health data. Some challenges are technological, but this framework is focused on data governance challenges. Data governance is the policies, processes, and resulting decisions that protect people’s health information and their privacy. Every dataset has its own unique governance that establishes the rules around data access, sharing, linkage, use and dissemination. 
 
-There are many challenges to linking individual-level health data. While some of these are challenges are technological, this project is focused on data governance challenges. Data governance is the policies and processes that protect people’s health information and their privacy by making sure their information is secure and only used in permitted and ethical ways. Every dataset has its own governance that establishes the rules around data access, linkage, sharing, use and dissemination. 
+**For Investigators:** Researchers attempting to link datasets face many governance challenges: submitting requests to multiple organizations is time-consuming, requires intense effort, and is redundant. Understanding the many different processes may be overwhelming and multiple approvals from different entities may be required. Despite this effort, the researcher may learn that datasets have conflicting governance rules that prevent linkage. Researchers want an approach to coordinating processes among dataset holders to determine whether conflicts can be overcome. 
 
-When researchers attempt to link data, they may face challenges that are hard to overcome: submitting requests to multiple organizations for permission to access their datasets for linkage can be a time-consuming, require intense effort, and be redundant. Sometimes, despite this effort, the researcher learns that datasets have conflicting governance rules that block the linkage. Researchers do not have access to a process that will help coordinate among dataset holders to determine whether and how conflicts can be overcome so research can proceed. 
+**For Dataset Holders:** Organizations owning or stewarding data (Dataset Holders) want their datasets to advance research. Their governance rules protect their data and shape processes that gather the information dataset holders need to assess whether data access can be granted. These governance rules are generally for linkage with another single dataset and not for two or more. Dataset holders do not have a coordinated data governance process to explore whether they can harmonize conflicting governance rules.
 
-Organizations appreciate the importance of their datasets for advancing research. Their governance rules and processes are established to protect their data and gather the information they need to assess whether data access can be granted. These governance rules and information gathering processes are generally for linkage with another single dataset and not for two or more. Dataset holders are not coordinated so they can work together to explore whether they can harmonize conflicting governance rule conflicts and allow research to take place.
+
+CALLOUT: This project conducted a Current State Assessment (CSA) to learn about the governance policies and practices of three dataset holders: N3C, PCORnet, and VRDC. The assessment and its findings can be accessed [here].
+
+The CSA and discussions with a trans-HHS agency leadership team led to the development to of an Options Memo to help NCI select the best path forward to drive innovation in the linkage governance space. The option memo may be accessed [here]
+
