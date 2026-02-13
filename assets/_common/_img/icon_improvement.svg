@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon Improvement</title>
+    <defs>
+        <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon-Improvement" stroke="none" fill="none" transform="translate(0.8, 0)" xlink:href="#path-1" fill-rule="nonzero">
+        <polygon id="Path" fill="#000000" points="6.35304795 12.7060959 11.2939041 12.7060959 11.2939041 24 6.35304795 24"></polygon>
+        <polygon id="Path" fill="#000000" points="12.7060959 6.35304795 17.646952 6.35304795 17.646952 24 12.7060959 24"></polygon>
+        <polygon id="Path" fill="#000000" points="19.0591439 0 24 0 24 24 19.0591439 24"></polygon>
+        <polygon id="Path" fill="#000000" points="0 19.0591439 4.94085615 19.0591439 4.94085615 24 0 24"></polygon>
+    </g>
+</svg>

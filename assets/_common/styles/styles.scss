@@ -15,3 +15,13 @@ Custom styling
 .img96ex {max-width:96ex}
 .site-logo {height:100px}
 .inline-logo {position:relative;top:5px}
+
+ul.framework-element-list {
+  list-style:none;
+  li {
+    /* background-image: url(../img/icon_gavel.svg); */
+    background-position: -4px 2px;
+    background-repeat: no-repeat;
+    background-size: 1.4em;
+  }
+}

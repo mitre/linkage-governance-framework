@@ -2,6 +2,14 @@ const fs = require('fs');
 const { EleventyRenderPlugin, HtmlBasePlugin } = require("@11ty/eleventy");
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const footnote_plugin = require('markdown-it-footnote');
+const markdownIt = require('markdown-it');
+const markdownItAttrs = require('markdown-it-attrs');
+
+const markdownItOptions = {
+  html: true,
+  breaks: true,
+  linkify: true
+}
 
 const yaml = require("js-yaml");
 
@@ -15,7 +23,8 @@ module.exports = function(config) {
   config.addPlugin(HtmlBasePlugin);
 
   config.amendLibrary("md", (mdLib) => mdLib.use(footnote_plugin));
-
+  config.amendLibrary("md", (mdLib) => mdLib.use(markdownItAttrs));
+  
   // Copy the robots.txt file to the output
   config.addPassthroughCopy('robots.txt');
 
@@ -27,7 +36,8 @@ module.exports = function(config) {
   config.addPassthroughCopy("./assets/**/js/*");
 
   config.addPassthroughCopy({'./assets/_common/_img/favicons/favicon.ico': './favicon.ico' });
-  config.addPassthroughCopy({'./assets/_common/_img/favicons': './img/favicons' });
+//  config.addPassthroughCopy({'./assets/_common/_img/favicons': './img/favicons' });
+  config.addPassthroughCopy({'./assets/_common/_img/': './img/' });
 
   // Set download paths
   // Place files for download in assets/{guide}/dist/{filename.ext}
