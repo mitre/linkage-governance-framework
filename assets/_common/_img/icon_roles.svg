@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="24px" viewBox="0 0 37 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon Roles</title>
+    <defs>
+        <path d="M0,0 L36.8,0 L36.8,24 L0,24 L0,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon-Roles" stroke="none" fill="none" xlink:href="#path-1" fill-rule="nonzero">
+        <polygon id="Path" fill="#000000" points="13.9393939 0 23.1393939 0 23.1393939 5.58139535 13.9393939 5.58139535"></polygon>
+        <polygon id="Path" fill="#000000" points="0 18.4186047 9.2 18.4186047 9.2 24 0 24"></polygon>
+        <polygon id="Path" fill="#000000" points="13.9393939 18.4186047 23.1393939 18.4186047 23.1393939 24 13.9393939 24"></polygon>
+        <polygon id="Path" fill="#000000" points="27.6 18.4186047 36.8 18.4186047 36.8 24 27.6 24"></polygon>
+        <polygon id="Path" fill="#000000" points="19.3234848 11.0697674 19.3234848 6.41860465 17.4765152 6.41860465 17.4765152 11.0697674 3.62424242 11.0697674 3.62424242 17.5813953 5.47121212 17.5813953 5.47121212 12.9302326 17.4765152 12.9302326 17.4765152 17.5813953 19.3234848 17.5813953 19.3234848 12.9302326 31.3287879 12.9302326 31.3287879 17.5813953 33.1757576 17.5813953 33.1757576 11.0697674"></polygon>
+    </g>
+</svg>

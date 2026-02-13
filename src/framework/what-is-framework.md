@@ -6,9 +6,9 @@ layout: layouts/page
 section: framework
 nav: cgf
 tags: 
-  - framework
+  - xxxframework
 eleventyNavigation:
-  parent: cgf-framework
+  parent: xxxcgf-framework
   key: what-is-framework
   order: 1
   title: What is the Framework?
@@ -20,11 +20,12 @@ sticky_sidenav: true
 
 The Linkage Governance Framework is a set of five connected elements that come together around a Common Governance Process. The Common Governance process introduces a new collaborative approach to governance decision-making and rule harmonization for data linkage. The Framework elements are:
 
-1.	**Guiding Principles** that describe the core values underpinning the framework’s purpose and objectives.
-2.	A **Common Governance Process** that provides a consistent, transparent process to intake, screen, and harmonize requests to access and link multiple datasets.
-3.	**Roles and Responsibilities** defining the functions and duties of entities involved in the governance process.
-4.	**Governance Decisions** that must be made to achieve the framework’s objectives.
-5.	**Continuous Improvement** to increase governance effectiveness through structured feedback to refine and enhance the framework over time.
+- **1. Guiding Principles** that describe the core values underpinning the framework’s purpose and objectives.{.icon-principles}
+- **2. A Common Governance Process** that provides a consistent, transparent process to intake, screen, and harmonize requests to access and link multiple datasets.{.icon-process}
+- **3. Roles and Responsibilities** defining the functions and duties of entities involved in the governance process.{.icon-roles}
+- **4. Governance Decisions** that must be made to achieve the framework’s objectives.{.icon-governance}
+- **5. Continuous Improvement** to increase governance effectiveness through structured feedback to refine and enhance the framework over time.{.icon-improvement}
+{.framework-element-list}
 
 As a proof of concept, the Framework has been designed, tested, revised, and reviewed. It is not yet implemented for production use.
 
