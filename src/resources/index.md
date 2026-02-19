@@ -30,5 +30,3 @@ You may download a <a href="#">sample Request Package</a> to see what an investi
 ## Other Resources
 
 There will be some other resources you can download here...
-
-Emily: 
