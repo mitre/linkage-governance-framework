@@ -20,3 +20,5 @@ sticky_sidenav: true
 
 Description of the Playbook for the Linkage Governance Framework.
 
+
+        {% include "playbook_updates.html" %}

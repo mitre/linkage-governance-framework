@@ -4,6 +4,7 @@ const pluginNavigation = require('@11ty/eleventy-navigation');
 const footnote_plugin = require('markdown-it-footnote');
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
+const markdownItDeflist = require("markdown-it-deflist");
 
 const markdownItOptions = {
   html: true,
@@ -24,6 +25,7 @@ module.exports = function(config) {
 
   config.amendLibrary("md", (mdLib) => mdLib.use(footnote_plugin));
   config.amendLibrary("md", (mdLib) => mdLib.use(markdownItAttrs));
+  config.amendLibrary("md", (mdLib) => mdLib.use(markdownItDeflist));
   
   // Copy the robots.txt file to the output
   config.addPassthroughCopy('robots.txt');
@@ -36,8 +38,8 @@ module.exports = function(config) {
   config.addPassthroughCopy("./assets/**/js/*");
 
   config.addPassthroughCopy({'./assets/_common/_img/favicons/favicon.ico': './favicon.ico' });
-//  config.addPassthroughCopy({'./assets/_common/_img/favicons': './img/favicons' });
-  config.addPassthroughCopy({'./assets/_common/_img/': './img/' });
+  config.addPassthroughCopy({'./assets/_common/_img/favicons': './img/favicons' });
+  //config.addPassthroughCopy('./assets/_common/_img/');
 
   // Set download paths
   // Place files for download in assets/{guide}/dist/{filename.ext}

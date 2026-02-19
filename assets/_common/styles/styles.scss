@@ -13,15 +13,40 @@ Custom styling
 ----------------------------------------------------------*/
 .usa-prose > p {max-width:96ex}
 .img96ex {max-width:96ex}
+.imgc50 {margin:0 auto;max-width:48ex;display:block}
 .site-logo {height:100px}
 .inline-logo {position:relative;top:5px}
 
 ul.framework-element-list {
   list-style:none;
   li {
-    /* background-image: url(../img/icon_gavel.svg); */
-    background-position: -4px 2px;
+    background-position: 2px 2px;
     background-repeat: no-repeat;
     background-size: 1.4em;
+    padding-left:2.5em;
+    margin-bottom:1em;
+    &.icon-gavel {background-image: url('../_img/icon_gavel.svg');}
+    &.icon-principles {background-image: url('../_img/icon_column.svg');}
+    &.icon-improvement {background-image: url('../_img/icon_improvement.svg');}
+    &.icon-process {background-image: url('../_img/icon_process.svg');}
+    &.icon-roles {background-image: url('../_img/icon_roles.svg');}
   }
 }
+
+.usa-prose > table.updates-table {
+  font-size: 0.84rem; 
+}
+
+.usa-prose .site-component-section-title {
+    font-weight: 700;
+    border-top: 1px solid;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    padding-top: .75rem;
+}
+
+dt {font-weight:700}
+dd+dt {
+margin-top:1em;
+}
+dd {margin-left:0}
