@@ -36,7 +36,9 @@ ul.framework-element-list {
 .usa-prose > table.updates-table {
   font-size: 0.84rem; 
 }
-
+.usa-prose ol {
+  padding-left:6ch;
+}
 .usa-prose .site-component-section-title {
     font-weight: 700;
     border-top: 1px solid;
@@ -50,3 +52,19 @@ dd+dt {
 margin-top:1em;
 }
 dd {margin-left:0}
+
+.usa-callout-box {
+  border-left:4px solid #ddd;
+  padding-left:1.5em;
+  .usa-callout-box__heading {
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-weight:300;
+    font-size:1.2rem;
+    color:#666;
+    margin-block-end:1em;
+  }
+  .usa-callout-box__text {
+  font-size:0.9em;
+  color:#333;}
+}

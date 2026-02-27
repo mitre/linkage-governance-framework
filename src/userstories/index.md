@@ -16,6 +16,12 @@ sticky_sidenav: true
 
 # Example User Stories
 
+## How would a researcher use this framework?
+
+## How would a dataset holder use this framework?
+
+## How would implementing this framework ultimately benefit patients?
+
 This page will describe example user stories for the Linkage Governance Framework. A summary of each use case will be here, with a full description on another page.
 
 These use cases will likely describe how each of the three roles (investigator at a requesting institution, dataset holder and coordinating body member) would participate in the governance process.
