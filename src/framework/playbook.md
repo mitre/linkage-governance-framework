@@ -10,8 +10,8 @@ tags:
 eleventyNavigation:
   parent: cgf-framework
   key: playbook
-  order: 3
-  title: The Playbook for the Framework
+  order: 4
+  title: Playbook for the Framework
 sidenav: true
 sticky_sidenav: true
 ---
@@ -21,4 +21,4 @@ sticky_sidenav: true
 Description of the Playbook for the Linkage Governance Framework.
 
 
-        {% include "playbook_updates.html" %}
+{% include "playbook_updates.html" %}
