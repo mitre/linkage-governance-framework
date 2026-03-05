@@ -10,5 +10,7 @@ cgf:
     url: /userstories/
   - name: Resources
     url: /resources/
+  - name: Glossary
+    url: /glossary/  
   - name: About
     url: /about/

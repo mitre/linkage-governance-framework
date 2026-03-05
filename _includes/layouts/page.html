@@ -13,6 +13,7 @@ Template is for a single page.
         {%- include "sidenav.html" -%}
       {%- endif -%}
       <main class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+        {% render "wip.html" %}
         {{ content }}
       </main>
     </div>

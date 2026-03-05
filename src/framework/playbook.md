@@ -10,8 +10,8 @@ tags:
 eleventyNavigation:
   parent: cgf-framework
   key: playbook
-  order: 4
-  title: Playbook for the Framework
+  order: 2
+  title: Framework Playbook
 sidenav: true
 sticky_sidenav: true
 ---

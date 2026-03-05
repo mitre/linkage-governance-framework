@@ -1,19 +1,16 @@
 ---
 title: Glossary
 description: 'Glossary of Terms'
-permalink: /framework/glossary.html
+permalink: /glossary/
 layout: layouts/page
-section: framework
 nav: cgf
-tags: 
-  - framework
 eleventyNavigation:
-  parent: cgf-framework
-  key: glossary
-  order: 4
-  title: Glossary of Terms
-sidenav: true
-sticky_sidenav: true
+  parent: cgf-glossary
+  key: cgf-glossary-main
+  order: 1
+  title: Glossary
+sidenav: false
+sticky_sidenav: false
 ---
 {% include "alert-box.html" %}
         
