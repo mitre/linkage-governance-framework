@@ -6,9 +6,9 @@ layout: layouts/page
 section: framework
 nav: cgf
 tags: 
-  - framework
+  - xxxframework
 eleventyNavigation:
-  parent: cgf-framework
+  parent: xxxcgf-framework
   key: principles
   order: 2
   title: Guiding Principles for the Framework

@@ -13,17 +13,7 @@ sidenav: true
 sticky_sidenav: true
 ---
 
-<section class="usa-site-alert usa-site-alert--info" aria-label="Site alert,">
-  <div class="usa-alert">
-    <div class="usa-alert__body">
-      <h4 class="usa-alert__heading">Work in progress</h4>
-      <p class="usa-alert__text">
-        Additional context and followup information including
-        <a class="usa-link" href="javascript:void(0);">a link</a>.
-      </p>
-    </div>
-  </div>
-</section>
+
 
 # A new approach to governance for complex data linkage
 
@@ -52,6 +42,8 @@ The Framework elements are:
 - **5. Continuous Improvement** to increase governance effectiveness through structured feedback to refine and enhance the framework over time.{.icon-improvement}
 {.framework-element-list}
 
+This framework may not be helpful for all linkages. Linkages that are straightforward (for example, one-to-one linkage) should use existing governance processes. 
+
  {% render 'callout.html', title: 'Playbook', body:'The Common Governance Framework to Link Individual-level Health Data for Research Playbook elaborates on all five elements of the framework. <a href="/framework/playbook.html">About the Playbook</a>' %}
  
 ## What problem does this framework address?
@@ -63,21 +55,3 @@ The Linkage Governance Framework is a new model for governance that addresses th
 - Review processes are sequenced differently across organization so that the Investigator must align and coordinate multiple asynchronous processes 
 - Investigators may learn that conflicting governance rules make linkage impossible with no way to reconcile these conflicts
 - No process or tools currently support retrieval and integration of governance rules across datasets to define a set of rules that govern the linked dataset 
-
-
-
-## Who should use the Framework? 
-
-Investigators and their Requesting Institutions can use the Linkage Governance Framework when pursuing linkages that involve a high level of complexity. They can expect the framework to facilitate the decisions across organizations that grant access to date and to help clarify the rules that will apply to the products of linkage (a linked dataset).
-
-This framework will not be helpful for all linkages. For linkages that are straightforward, using the Linkage Governance Framework could complicate and extend governance work and existing governance processes may be sufficient. 
-
-## What could this framework achieve?
-
-This framework’s mission is to enable complex linkages with greater flexibility[^1] and scalability[^2] than is currently available. Enabling complex linkages translates to more research studies linking data are initiated, more linkages of many datasets are completed faster, and complex linkages can be completed for less costs. 
-
-[^1]: Flexibility means that the framework is built to facilitate the harmonization of many data types and data collected for purposes other than research.
-[^2]: Scalability means that the framework is built to create complex linkages for research, public health, and population health applications drawing data from federal, academic, and other institutions.
-
-
-

@@ -13,9 +13,8 @@ sidenav: true
 sticky_sidenav: true
 ---
 
-# Problem Overview
 
-## Individual-level health data linkage holds promise for innovative research...
+# Individual-level health data linkage holds promise for innovative research...
 
 People usually have health data held in multiple systems. These datasets range from a person’s electronic health record (EHR) to health insurance claims, data from wearables, information stored in repositories from participation in research studies, etc. This “individual-level health data” from different datasets can be matched and linked, creating a combined dataset with more complete information.
 
@@ -29,9 +28,11 @@ Some linkages of individual-level health data are happening today. For example, 
 While some challenges to linking datasets are technological, this framework focuses on governance challenges. 
 
         
-      {% render 'summary-box.html', title: 'Key Term', body: '<b>Data governance</b> is the policies, processes, and decisions that dictate how data can be managed and used to protect individual’s privacy. It is expressed through governance rules that express requirements for data access, sharing, linkage, use and dissemination.' %}
+      {% render 'summary-box.html', title: 'Key Term', body: '<b>Data governance</b> is the policies, processes, and decisions that dictate how data can be managed and used to protect individual’s privacy. It is expressed through <b>governance rules</b> that express requirements for data access, sharing, linkage, use and dissemination.' %}
 
 While there may be many commonalities between datasets’ governance, each dataset may implement shared rules in different ways, may have unique rules, and may have rules that conflict with the rules of other datasets.
+
+**Complex data linkage** arises when various aspects of data governance makes the linkage especially difficult. Connecting multiple datasets (three or more), for example, is a type of complex linkage, because of the challenges blending the governance of 3 different datasets. 
 
 ## Investigators and dataset holders need a new way to overcome challenges and link data for research.
 
@@ -54,5 +55,5 @@ Dataset holders operate and participate in the governance processes and are resp
 - Time and effort to understand unfamiliar linkage methods and authorize software tools needed to complete complex linkages
 - Time and effort needed to modify existing processes to respond complex requests
 
-{% render 'callout.html', title: 'Note', body:'This project conducted a Current State Assessment (CSA) to learn about the governance policies and practices of three dataset holders: N3C, PCORnet, and VRDC. The assessment and its findings can be accessed [here].'%}
+    {% render 'callout.html', title: 'Note', body:'This project conducted a Current State Assessment (CSA) to learn about the governance policies and practices of three dataset holders: N3C, PCORnet, and VRDC. The assessment and its findings can be accessed [here].' %}
 

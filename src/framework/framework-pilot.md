@@ -10,7 +10,7 @@ tags:
 eleventyNavigation:
   parent: cgf-framework
   key: pilot
-  order: 2
+  order: 4
   title: Framework Pilot
 sidenav: true
 sticky_sidenav: true
