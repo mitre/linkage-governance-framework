@@ -12,7 +12,6 @@ eleventyNavigation:
 sidenav: false
 sticky_sidenav: false
 ---
-{% include "alert-box.html" %}
         
 # Glossary
 
