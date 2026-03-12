@@ -17,6 +17,6 @@ sticky_sidenav: true
 ---
 
 # Framework Pilot
-The Framework and common governance process were piloted in an operational exercise that included two mock research use cases. The results of the operational exercise may be accessed HERE.
+The Framework and common governance process were piloted in an operational exercise that included two mock research use cases. The results of the operational exercise may be accessed HERE (link TBD).
 
 CALL-OUT: PLAYBOOK: The Common Governance Framework to Link Individual-level Health Data for Research Playbook elaborates on all five elements of the framework (access HERE). 

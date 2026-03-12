@@ -16,7 +16,7 @@ sticky_sidenav: true
 
 # Individual-level health data linkage holds promise for innovative research...
 
-People usually have health data held in multiple systems. These datasets range from a person’s electronic health record (EHR) to health insurance claims, data from wearables, information stored in repositories from participation in research studies, etc. This “individual-level health data” from different datasets can be matched and linked, creating a combined dataset with more complete information.
+People usually have health data held in multiple systems. Examples include clinical data from an electronic health record (EHR), claims from a health insurer, data from wearables, and data collected during research studies. This “individual-level health data” from different datasets can be matched and linked, creating a combined dataset with more complete information. 
 
 Linking health data from multiple datasets creates a fuller picture of the person’s health over time. When researchers use linked data, they can better understand the diverse factors contributing to health and illness. This drives innovative research questions and accelerates discovery. But attempting to link data can have significant challenges that researchers cannot solve on their own.
 
@@ -53,7 +53,7 @@ Dataset holders operate and participate in the governance processes and are resp
 
 - No coordination with other Dataset Holders to codesign complex linkages that comply with governance rules.
 - Time and effort to understand unfamiliar linkage methods and authorize software tools needed to complete complex linkages
-- Time and effort needed to modify existing processes to respond complex requests
+- Time and effort needed to modify existing processes to respond to complex requests
 
     {% render 'callout.html', title: 'Note', body:'This project conducted a Current State Assessment (CSA) to learn about the governance policies and practices of three dataset holders: N3C, PCORnet, and VRDC. The assessment and its findings can be accessed [here].' %}
 
