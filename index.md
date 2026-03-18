@@ -19,7 +19,7 @@ Linking individual-level health data across data sources to connect complementar
 
 ## What is the framework? What does a framework mean here?
 
-The [Linkage Governance Framework](/framework) is a proposed process that offers two important advancements in linkage studies:
+The [Linkage Governance Framework](/framework) is a proposed approach that offers two important advancements in linkage studies:
 
 1. It streamlines the process for investigators to propose linkage studies using multiple HHS datasets.
 2. It provides a way for dataset holders to collaborate on data access requests and harmonize governance rules for those requests.
@@ -30,6 +30,7 @@ The Linkage Governance Framework is a proof of concept that requires testing for
 
 ## What issue does this framework address?
 
+[...to be provided...]
 
 
   </section>

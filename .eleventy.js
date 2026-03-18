@@ -64,7 +64,20 @@ module.exports = function(config) {
       <use xlink:href="#svg-${name}"></use>
     </svg>`;
   });
+
   
+  let getSvgContent = async function (file) {
+      let data = fs.readFileSync(file, 
+      function(err, contents) {
+         if (err) return err
+         return contents
+      });
+
+      return data.toString('utf8');
+   }
+  config.addLiquidShortcode("svg", getSvgContent);
+   
+
   // If BASEURL env variable exists, update pathPrefix to the BASEURL
   if (process.env.BASEURL) {
     pathPrefix = process.env.BASEURL

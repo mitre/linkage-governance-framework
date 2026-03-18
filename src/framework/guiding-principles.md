@@ -1,7 +1,7 @@
 ---
 title: Guiding Principles
 description: 'Guiding principles of the Linkage Governance Framework'
-permalink: /framework/guiding-principles.html
+
 layout: layouts/page
 section: framework
 nav: cgf
@@ -11,7 +11,7 @@ eleventyNavigation:
   parent: xxxcgf-framework
   key: principles
   order: 2
-  title: Guiding Principles for the Framework
+  title: Guiding Principles
 sidenav: true
 sticky_sidenav: true
 ---
