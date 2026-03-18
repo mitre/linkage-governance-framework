@@ -9,7 +9,7 @@ eleventyNavigation:
   key: cgf-problem-main
   order: 1
   title: Problem Overview
-sidenav: true
+sidenav: false
 sticky_sidenav: true
 ---
 
@@ -28,7 +28,7 @@ Some linkages of individual-level health data are happening today. For example, 
 While some challenges to linking datasets are technological, this framework focuses on governance challenges. 
 
         
-      {% render 'summary-box.html', title: 'Key Term', body: '<b>Data governance</b> is the policies, processes, and decisions that dictate how data can be managed and used to protect individual’s privacy. It is expressed through <b>governance rules</b> that express requirements for data access, sharing, linkage, use and dissemination.' %}
+      {% render 'summary-box.html', title: 'Key Term', body: '<b>Data governance</b> is the policies, processes, and decisions that dictate how data can be managed and used to protect an individual’s privacy. It is expressed through <b>governance rules</b> that express requirements for data access, sharing, linkage, use and dissemination.' %}
 
 While there may be many commonalities between datasets’ governance, each dataset may implement shared rules in different ways, may have unique rules, and may have rules that conflict with the rules of other datasets.
 
