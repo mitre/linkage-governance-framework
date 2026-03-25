@@ -27,27 +27,14 @@ The Framework proposes three advances:
 
 ## Elements of the Framework
 
-The Framework has five connected elements that come together to support a new approach for complex linkages of individual-level health data.
+The Framework has five connected elements that come together to support a new approach for complex linkages of individual-level health data. [View text description of Framework elements](framework-elements.html){ .usa-sr-only}
 
 <div>
 {% svg 'assets/resources/img/lgf-pentagon-hover.svg' %}
-<figcaption>Diagram of Framework Elements</figcaption>
+<figcaption class="minor">Diagram of Framework Elements: hover over to see details of each element</figcaption>
 </div>
-
-([view text description of Framework elements](framework-elements.html))
-
 
 This framework may not be helpful for all linkages. Linkages that are straightforward (for example, one-to-one linkage) should use existing governance processes.
 
-
  {% render 'callout.html', title: 'Playbook', body:'The Common Governance Framework to Link Individual-level Health Data for Research Playbook elaborates on all five elements of the framework. <a href="/framework/playbook.html">About the Playbook</a>' %}
  
-## What problem does this framework address?
-
-The Linkage Governance Framework is a new model for governance that addresses the fragmented, slow, and duplicative governance processes that make it hard to link individual-level health data. The process and policy challenges when linking multiple datasets for research can include:
-
-- Investigators having to submit separate requests to multiple organizations which is time-consuming, redundant, and requires intense up-front effort  
-- Organizations receive requests for linkage that are incomplete, leading to additional time-consuming iterations with Investigators 
-- Review processes are sequenced differently across organization so that the Investigator must align and coordinate multiple asynchronous processes 
-- Investigators may learn that conflicting governance rules make linkage impossible with no way to reconcile these conflicts
-- No process or tools currently support retrieval and integration of governance rules across datasets to define a set of rules that govern the linked dataset 

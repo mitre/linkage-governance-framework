@@ -16,27 +16,23 @@ sidenav: true
 sticky_sidenav: true
 ---
 
-# Pilot the Framework (Operational Exercise)
+# Framework Pilot
 
-The Framework was tested through a pilot, also called the Operational Exercise. The purpose of the Operational Exercise was to pilot the Common Governance Process with two mock research use cases that require complex linkage, to gather evidence about what works well, what needs improvement, and what steps are needed to scale the approach.
+The [Linkage Governance Framework](/framework) was piloted through an Operational Exercise. The purpose of the Operational Exercise was to gather evidence about which aspects of the framework work well and which need improvement. Piloting the framework translated to conducting the Common Governance Process with existing datasets and their governance. Two mock research use cases that require complex linkage were developed. The use cases represented desirable linkages and compelling research that are impossible today. 
 
-## How the pilot was run
-The exercise used two connected workstreams: 
+## Approach
 
-- **Individual** working sessions (1 hour each), where participants walked through the Common Governance Process for each use case. 
-- **Group** working sessions, where participants discussed their experience, suggested ways to make the process more efficient, and shared strategies for advancing the framework across agencies. 
+The Operational Exercise engaged participants from Dataset Holders across HHS. MITRE played the role of the [Coordinating Body](/framework/common-governance-process). There were two connected workstreams in the Operational Exercise: 
 
-## Use cases tested in the pilot
+- Individual working sessions where participants walked through the Common Governance Process for each use case 
+- Group working sessions where participants discussed their experience in the process and suggested ways to make the process more efficient 
 
-### Use Case 1: Type 2 Diabetes and cancer among older adults 
+### Use Case 1: Type 2 Diabetes and Cancer Among Older Adults 
 
-This use case explored how genetic factors may relate to cancer diagnosis and cancer outcomes among adults ages 65–85 with type 2 diabetes. The proposed linkage combined an investigator-provided genomics dataset (T2D-GENES consortium data) with Medicare claims data and EHR-based clinical data accessed via the [National Clinical Cohort Collaborative](https://ncats.nih.gov/research/research-activities/n3c/overview) (N3C). The use case relied on privacy-preserving record linkage (PPRL) using tokens and specified that the study-specific linked dataset would be accessed for analysis only within the N3C secure enclave. 
+Use Case 1 explored how genetic factors may relate to cancer diagnoses and cancer outcomes among adults ages 65–85 with type 2 diabetes. A mock research study linkage was proposed to combine genomics data from the T2D-GENES consortium with Medicare claims data and EHR-based clinical data accessed via the [National Clinical Cohort Collaborative](https://ncats.nih.gov/research/research-activities/n3c/overview) (N3C). Privacy-preserving record linkage (PPRL) was the proposed linkage method, using tokens to generate a study-specific linked dataset accessible only within the N3C secure enclave. 
 
-### Use Case 2: Late complications following immunotherapy among children, adolescents, and young adults 
+### Use Case 2: Late Complications Following Immunotherapy Among Children, Adolescents, and Young Adults 
 
-This use case focused on late complications occurring 90 days or more after immunotherapy among individuals ages 0–25 with cancer, and examined which complications observed in clinical data are also reported to FDA as adverse events. The proposed linkage involved three requested datasets: [National Childhood Cancer Registry](https://cancercontrol.cancer.gov/research-emphasis/supplement/childhood-cancer-registry) (NCCR) data (registry data pre-linked with EHR data), FDA BEST adverse event data, and cancer genomic data indexed through the [Childhood Cancer Data Initiative](https://www.cancer.gov/research/areas/childhood/childhood-cancer-data-initiative) (CCDI) Participant Index (CPI), with genomic access managed through [dbGaP](https://dbgap.ncbi.nlm.nih.gov/home/) data access requests when needed. The linkage approach included <abbr title="Privacy Protecting Record Linkage">PPRL</abbr> to connect NCCR and FDA adverse event data and use of CPI to connect eligible individuals to available genomic datasets. 
+Use case 2 focused on late complications following immunotherapy in children and young adults (0–25 years) with cancer. A mock research study linkage was proposed to combine registry and EHR data from the [National Childhood Cancer Registry](https://cancercontrol.cancer.gov/research-emphasis/supplement/childhood-cancer-registry) (NCCR), adverse event data from the FDA BEST program, and genomic data indexed through the Childhood Cancer Data Initiative (CCDI) Participant Index (CPI) &endash; accessed via dbGaP. Two linkage methods are proposed to connect these data: PPRL to connect NCCR and FDA adverse event data and CPI to connect NCCR data to genomic data. 
 
-## What comes next 
-The next steps are to use what was learned from the pilot to refine the Common Governance Framework, improve the Common Governance Process, and plan for future implementation of a refined approach. This includes gathering feedback from partners across HHS and using pilot findings to inform recommendations and practical implementation planning. 
- 
 

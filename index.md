@@ -15,23 +15,29 @@ description: Linkage Governance Framework to Connect Individual-level Health Dat
 
 # Linkage Governance Framework to Connect Individual-Level Health Data for Research
 
-Linking individual-level health data across data sources to connect complementary data types increases the patterns and interrelationships that a researcher may explore to accelerate discoveries for prevention, diagnostics, and treatments. Current biomedical research infrastructure lacks a common governance approach that supports linking data for research, including studies of cancer and patient-centered outcomes research. Read about the [current challenges with data linkage](/problem).
+Linking individual-level health data allows a researcher to accelerate discoveries for prevention, diagnostics, and treatments. The current biomedical research infrastructure lacks a common governance approach that supports linking data for research.  
 
-## What is the framework? What does a framework mean here?
+## What is the Linkage Governance Framework?
 
-The [Linkage Governance Framework](/framework) is a proposed approach that offers two important advancements in linkage studies:
+The [Linkage Governance Framework](/framework) is a new model for governance that addresses the fragmented, slow, and duplicative governance processes that make it hard to link individual-level health data. This framework was inspired by the following challenges:  
 
-1. It streamlines the process for investigators to propose linkage studies using multiple HHS datasets.
-2. It provides a way for dataset holders to collaborate on data access requests and harmonize governance rules for those requests.
+- Investigators having to submit separate requests to multiple organizations which is time-consuming, redundant, and requires intense up-front effort 
+- Organizations receive requests for linkage that are incomplete, leading to additional time-consuming iterations with Investigators 
+- Review processes are sequenced differently across organizations so that the Investigator must align and coordinate multiple asynchronous processes 
+- Investigators may learn that conflicting governance rules make linkage impossible with no way to reconcile these conflicts 
+
+Read more about the [current challenges with data linkage](/problem). The Linkage Governance Framework was developed for Investigators, Requesting Institutions, and Dataset Holders and aims to accelerate data linkage decisions, streamline governance process, and enable safe and secure linkages.  
 
 {% image_with_class "assets/resources/img/placemat.png" "img96ex" "Diagram of Linkage Governance Framework" %}
 
-The Linkage Governance Framework is a proof of concept that requires testing for feasibility, practicality, scalability, and effectiveness. Lessons learned from testing this new approach and process will be used to further refine and enhance the framework with the eventual goal of full-scale implementation and widespread availability across research communities.
+Differing from the current state of governance for linkage, this framework introduces the following innovation and efficiency:
 
-## What issue does this framework address?
+- Creating a neutral Coordinating Body to be the interface between Investigators and Dataset Holders 
+- Simplifying the process for Investigators to propose linkage of multiple datasets 
+- Synchronizing review processes across Dataset Holders 
+- Launching a collaborative process to harmonize governance rules with Dataset Holders
 
-[...to be provided...]
-
+In this website you can find a discussion of the problem space, description of the framework and its Common Governance Process, examples of how the framework could impact its prospective users, links to framework resources, and information about the project from which this framework was created.  
 
   </section>
 </div>

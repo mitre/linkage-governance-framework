@@ -8,7 +8,7 @@ nav: cgf
 tags:
   - userstory
 eleventyNavigation:
-  parent: cgf-userstories
+  parent: xcgf-userstories
   key: userstory-3
   order: 3
   title: Patient Benefit User Story
