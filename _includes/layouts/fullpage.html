@@ -1,0 +1,24 @@
+---
+layout: layouts/base
+---
+
+{% comment %}
+Template is for a single page.
+{% endcomment %}
+
+<div id="main-content" class="usa-layout-docs usa-section flex-1 tablet:padding-bottom-10">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      {%- if sidenav == true -%}
+        {%- include "sidenav.html" -%}
+      {%- endif -%}
+      <main class="usa-layout-docs__main desktop:grid-col-12 usa-prose">
+        <section class="grid-container section usa-section section--inbound">
+        {% render "wip.html" %}
+        {{ content }}
+        </section>
+      </main>
+    </div>
+  </div>
+</div>
+

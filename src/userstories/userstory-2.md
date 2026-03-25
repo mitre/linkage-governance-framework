@@ -8,7 +8,7 @@ nav: cgf
 tags:
   - userstory
 eleventyNavigation:
-  parent: cgf-userstories
+  parent: zcgf-userstories
   key: userstory-1
   order: 2
   title: Dataset Holder User Story
