@@ -23,7 +23,7 @@ The [Playbook](/resources#playbook) is the primary source of information about t
 The Playbook explains each element of the framework in detail. While users can read it front to back for a full understanding, the playbook is organized so that a reader can easily identify the relevant section that addresses a particular subject or issue:
 
 - **Background**: Level-sets on key concepts &ndash; the meaning of linking individual-level health data, why it is important, and why a Linkage Governance Framework is needed.
-- **[Linkage Governance Framework](/framework) Overview**: Establishes the Framework’s purpose, objectives, elements, and guiding principles.
+- **[Linkage Governance Framework](/framework)**: Establishes the Framework’s purpose, objectives, elements, and guiding principles.
 - **[Common Governance Process](/framework/common-governance-process)**: Describes and maps the sequence of governance activities.
 - **Roles and Responsibilities**: Outlines the essential positions and functions for the framework.
 - **Governance Decisions**: Discusses decisions and their inputs and outputs.

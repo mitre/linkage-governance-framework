@@ -16,6 +16,11 @@ sidenav: true
 sticky_sidenav: true
 ---
 
+<div>
+{% svg 'assets/resources/img/lgf-pentagon-hover.svg' %}
+<figcaption class="minor">Diagram of Framework Elements: hover over to see details of each element</figcaption>
+</div>
+
 The Framework elements are:
 
 - **1. Guiding Principles** that describe the core values underpinning the framework’s purpose and objectives.{.icon-principles}

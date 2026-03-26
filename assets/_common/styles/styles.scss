@@ -33,6 +33,7 @@ ul.framework-element-list {
   }
 }
 
+
 .usa-section {
 padding-top:2em;
 }
@@ -83,4 +84,22 @@ figcaption.minor {
   text-align:center;
   font-size:0.9rem;
   color:#333;
+}
+
+
+.grid-container .section .grid-col-4 {
+  padding-left:1em;
+}
+@media screen and (max-width: 600px) {
+  .grid-container {
+    .section {
+      .grid-col-8 {
+        padding-bottom: 2rem;
+      }
+
+      .grid-col-4 {
+        padding-left: 0;
+      }
+    }
+  }
 }
