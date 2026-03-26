@@ -12,13 +12,16 @@ eleventyNavigation:
   title: User Stories
 sidenav: true
 sticky_sidenav: true
+subnav:
+  - text: Investigator
+    href: '#investigator'
 ---
 
 # User Stories
 
 The Linkage Governance Framework provides a vision of the future and a Common Governance Process that can enable complex data linkages that are not currently possible. The use of Investigator and Dataset Holder personas, communicated through user stories, illustrate the future envisioned by the framework and how it can help set the stage for discoveries to happen faster. 
 
-## Leslie the Investigator: Seeking Complex Linkage to Enable Innovative Research 
+## Leslie the Investigator: Seeking Complex Linkage to Enable Innovative Research{ #investigator} 
 
 Leslie is an early stage investigator. As a postdoc, Leslie was part of a study team that used data linked from two datasets to study Lyme disease outcomes. Since launching her own lab, Leslie’s theories about Lyme disease have continued to evolve. She has a new hypothesis about Lyme disease and cancer that she would like to advance with a data linkage study. To accomplish this, she will need to link data from three separate datasets. Leslie remembers the challenges of data linkage from just two datasets during her postdoctoral research: each dataset required much of the same information, but in different formats and at different moments, which was time consuming to submit.
 
