@@ -12,7 +12,7 @@ USWDS Source
 Custom styling
 ----------------------------------------------------------*/
 .usa-prose > p {max-width:96ex}
-.img96ex {max-width:96ex}
+.img96ex {max-width:96ex;width:100%}
 .imgc50 {margin:0 auto;max-width:48ex;display:block}
 .site-logo {height:100px}
 .inline-logo {position:relative;top:5px}
@@ -49,6 +49,13 @@ padding-top:2em;
     margin-bottom: 1rem;
     margin-top: 3rem;
     padding-top: .75rem;
+}
+
+.usa-prose > ul, .usa-prose > ol {
+  margin-left:6ch;
+}
+.usa-prose > ul li, .usa-prose > ol li {
+  max-width:75ex;
 }
 
 dt {font-weight:700}
@@ -90,7 +97,18 @@ figcaption.minor {
 .grid-container .section .grid-col-4 {
   padding-left:1em;
 }
+@media screen and (max-width: 63.99em) {
+.usa-header { margin-top:2em}
+}
+@media screen and (max-width: 1023px) {
+  .usa-prose > ul, .usa-prose > ol {
+    margin-left:3ch;
+  }
+}
 @media screen and (max-width: 600px) {
+  .usa-prose > ul, .usa-prose > ol {
+    margin-left:1ch;
+  }
   .grid-container {
     .section {
       .grid-col-8 {
