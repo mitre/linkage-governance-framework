@@ -18,13 +18,13 @@ sticky_sidenav: true
 
 # Common Governance Process
 
-The Common Governance Process is a step-by-step implementation of the Linkage Governance Framework. It is a new approach to support requests for complex linkage of individual-level health data. The process streamlines investigators’ efforts to request complex linkages, clarifies applicable governance rules, and generates decisions sooner.  
+The Common Governance Process is a step-by-step implementation of the Linkage Governance Framework. It is a new approach to support requests for complex linkage of individual-level health data. The process streamlines investigators’ efforts to request complex linkages, clarifies applicable governance rules, and generates decisions sooner.    
  
 The Common Governance Process is organized into three stages: 
 
 1. **Intake**: the investigator develops and submits a single request package using a template provided by the Coordinating Body. 
 2. **Screening**: Dataset holders review the request package for feasibility. Feasible requests will proceed to the next step. Requests not deemed feasible may receive feedback from the Coordinating Body to support changes that would result in a feasible request.
-3. **Rule Harmonization**:  The Coordinating Body consolidates the rules across datasets, and helps Dataset Holders harmonize rules to overcome rule conflicts. This results in a single, consolidated rule set that can safely govern a proposed linkage and resulting linked dataset. 
+3. **Rule Harmonization**:  The Coordinating Body consolidates the rules across datasets, and helps Dataset Holders harmonize rules to overcome rule conflicts. This results in a single, consolidated rule set that can safely govern a proposed linkage and resulting linked dataset.<br>View a diagram of the [Rule Harmonization Process](/framework/rule-harmonization.html).
 
 The Common Governance Process improves the experience of investigators and dataset holders by: 
 

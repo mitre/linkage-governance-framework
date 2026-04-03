@@ -17,9 +17,9 @@ sticky_sidenav: true
 
 # A new approach to governance for complex data linkage
 
-The Linkage Governance Framework’s mission is to enable complex linkages: more research studies linking data will be initiated, linkages of multiple datasets will happen faster, and complex linkages will be completed for less costs. 
+The Linkage Governance Framework’s mission is to enable appropriate complex linkages: more research studies linking data will be initiated, linkages of multiple datasets will happen faster, and complex linkages will be completed for less costs. This speeds the transformation from data, to research, to actionable evidence. 
 
-The Framework proposes three advances:
+The framework proposes three advances:
 
 1. **Common Governance Process**: a new approach to support requests for complex linkage of individual-level health data. The process streamlines investigators’ efforts to request complex linkages, clarifies applicable governance rules, and generates decisions sooner. 
 2. **Coordinating Body**: a governance support structure that gathers information from investigators and coordinates dataset holders during reviews and helps them resolve governance rule conflicts that could block innovative research.
@@ -27,7 +27,7 @@ The Framework proposes three advances:
 
 ## Elements of the Framework
 
-The Framework has five connected elements that come together to support a new approach for complex linkages of individual-level health data. [View text description of Framework elements](framework-elements.html){ .usa-sr-only}
+The Framework has five connected elements that come together to support a new approach for complex linkages of individual-level health data. [Read a text description of Framework elements](framework-elements.html){ .usa-sr-only}
 
 <div>
 {% svg 'assets/resources/img/lgf-pentagon-hover.svg' %}

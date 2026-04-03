@@ -16,12 +16,14 @@ sticky_sidenav: true
 
 # Individual-level health data linkage holds promise for innovative research...
 
-People usually have health data held in multiple systems. Examples include clinical data from an electronic health record (EHR), claims from a health insurer, data from wearables, and data collected during research studies. This “individual-level health data” from different datasets can be matched and linked, creating a combined dataset with more complete information.  
+People usually have health data held in multiple systems. Examples include clinical data from an electronic health record (EHR), claims from a health insurer, data from wearables, and data collected during research studies. Making sure these data are, when appropriate, reliably available and transformed into actionable evidence through research and analysis requires is essential for patient-centered outcomes research.  
 
-Linking health data from multiple datasets creates a fuller picture of the person’s health over time. When researchers use linked data, they can better understand the diverse factors contributing to health and illness. This drives innovative research questions and accelerates discovery. But attempting to link data can have significant challenges that researchers cannot solve on their own. 
+When this “individual-level health data” from different datasets can be matched and linked, if allowed by consent and when privacy is appropriately protected, the combined dataset has more complete information and a fuller picture of the diverse factors contributing to the person’s health and illness over time. Linking data can drive innovative research questions and accelerates discovery, but can have significant challenges that resesarchers might not anticipate. 
 
-Some linkages of individual-level health data are happening today. For example, the _All of Us_ Research Program links data from EHRs, patient surveys, and genomic repositories for research. Hundreds of studies have used the _All of Us_ linked data for scientific breakthroughs. However, most datasets have never been linked and many promising linkages remain out of reach.  
+Some linkages of individual-level health data are happening today. For example, the _All of Us_ Research Program asks permission from its participants to link data from EHRs, surveys, and genomic repositories for research. Hundreds of studies have used the _All of Us_ linked data for scientific breakthroughs. However, most datasets have never been linked and many promising safe and appropriate linkages remain out of reach.  
 
+      {% render 'summary-box.html', title: 'Key Term', body: '<b>Patient-centered outcomes research</b> aims to generate high-quality evidence about the effectiveness of treatments, services, and other health care interventions on the full range of outcomes that patients, caregivers, clinicians, policymakers, and other stakeholders have identified as important.  ' %}
+      
 <section>
   <div class="grid-row">
     <div class="grid-col-8">
@@ -30,20 +32,20 @@ Some linkages of individual-level health data are happening today. For example, 
 
 While some challenges to linking datasets are technological, this framework focuses on governance challenges. 
 
-While there may be many commonalities between datasets’ governance, each dataset may implement shared rules in different ways, may have unique rules, and may have rules that conflict with the rules of other datasets.
+While there may be many commonalities between datasets’ governance, each dataset may implement shared rules in different ways, may have unique rules, and may have rules that conflict with the rules of other datasets. 
 
 **Complex data linkage** arises when various aspects of data governance makes the linkage especially difficult. Connecting multiple datasets (three or more), for example, is a type of complex linkage, because of the challenges blending the governance of 3 different datasets. 
     </div>
     <div class="grid-col-4">
 
-      {% render 'summary-box.html', title: 'Key Term', body: '<b>Data governance</b> is the policies, processes, and decisions that dictate how data can be managed and used to protect an individual’s privacy. It is expressed through <b>governance rules</b> that express requirements for data access, sharing, linkage, use and dissemination.' %}
+      {% render 'summary-box.html', title: 'Key Term', body: '<b>Data governance</b> is the policies, processes, and decisions that dictate how data can be managed and used. Key to governance are consideration of data security and individual privacy. It is expressed through <b>governance rules</b> that express requirements for data access, sharing, linkage, use and dissemination.' %}
     </div>
   </div>      
 </section>
 
 ## Investigators and dataset holders need a new way to overcome challenges and link data for research.
 
-Investigators and Dataset Holders share a common goal to use data linkages to drive research that can improve health and save lives. Linkage governance as it stands today can make innovative complex linkages hard to create. 
+Investigators and Dataset Holders share a common goal to use data linkages to drive research that can improve health and save lives. Linkage governance as it stands today can make innovative complex linkages hard to create.  
 
 <section>
   <div class="grid-row">
@@ -70,9 +72,9 @@ Investigators and Dataset Holders share a common goal to use data linkages to dr
 
 {% image_with_class "assets/resources/img/dataset-holder.png" "actor-icon" "Icon of Dataset Holder" %}  Dataset holders are responsible for ensuring compliance with the usage rules for their dataset. Complex data linkages create different challenges for them:
 
-- No coordination with other Dataset Holders to codesign complex linkages that comply with governance rules.
+- No coordination with other Dataset Holders to codesign complex linkages that comply with governance rules
 - Time and effort to understand unfamiliar linkage methods and authorize software tools needed to complete complex linkages
-- Time and effort needed to modify existing processes to respond to complex requests.
+- Time and effort needed to modify existing processes to respond to complex requests
 
     </div>
     <div class="grid-col-4">

@@ -9,7 +9,7 @@ nav: cgf
 
 # About the Linkage Governance Framework
 
-The Linkage Governance Framework originated from a project led by the National Institutes of Health (NIH) National Cancer Institute (NCI). It was and funded by the Office of the Secretary Patient-Centered Outcomes Research Trust Fund ([OS-PCORTF](https://aspe.hhs.gov/creating-new-data-research-environment)). 
+The Linkage Governance Framework originated from a project led by the [National Institutes of Health](https://www.nih.gov) (NIH) [National Cancer Institute](https://www.cancer.gov) (NCI). It was and funded by the Office of the Secretary Patient-Centered Outcomes Research Trust Fund ([OS-PCORTF](https://aspe.hhs.gov/creating-new-data-research-environment)). 
 
     {% render 'callout.html', title: 'OS-PCORTF', body:'The OS-PCORTF is charged with building data capacity for patient-centered outcomes research. Coordinated by the Assistant Secretary for Planning and Evaluation (ASPE) on behalf of the U.S. Department of Health and Human Services (HHS), OS-PCORTF has funded a rich <a href="https://aspe.hhs.gov/collaborations-committees-advisory-groups/os-pcortf">portfolio</a> of projects to meet emerging HHS policy priorities and fill gaps in data infrastructure to enhance capabilities to collect, link, and analyze data for patient-centered outcomes research.  ' %}
     
