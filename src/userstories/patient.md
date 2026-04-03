@@ -1,6 +1,7 @@
 ---
-title: A User Story for Patients
-description: 'User story for patients'
+title: "Sharon and her caregiver Tori"
+subtitle: "Seeking Research for Better Treatment"
+description: 'Tori links data for biomedical research'
 permalink: /userstories/patient.html
 layout: layouts/page
 section: userstories

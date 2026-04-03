@@ -18,6 +18,15 @@ sticky_sidenav: true
 
 The Linkage Governance Framework provides a vision of the future and a Common Governance Process that can enable complex data linkages, where appropriate, that are not currently possible. The use of Investigator and Dataset Holder personas, communicated through user stories, illustrate the future envisioned by the framework and how it can help set the stage for discoveries to happen faster. 
 
+
+  {% for story in collections.userstory %}
+    <h2><a href="{{ story.url}}"> {{story.data.title}}</a></h2>
+    <h3>{{store.data.subtitle}}</h3>
+    <p>{{ story.data.description }}</p>
+
+  {% endfor %}
+
+<div style="display:none">
 ## Leslie the Investigator: Seeking Complex Linkage to Enable Innovative Research{ #investigator} 
 
 Leslie is an early stage investigator. As a postdoc, Leslie was part of a study team that used data linked from two datasets to study Lyme disease. Since launching her own lab, Leslie’s theories about Lyme disease have continued to evolve. She has a new hypothesis about Lyme disease and cancer that she would like to advance with a data linkage study. To accomplish this, she will need to link data from three separate datasets. Leslie remembers the challenges of data linkage from just two datasets during her postdoctoral research: each dataset’s access request process required much of the same information, but in different formats and at different moments, which was time consuming to submit. The team had to change their linkage study plans because the optimal datasets to link had different linkage requirements and the investigator could not get the Dataset Holders to come to agreement that would allow the study to proceed.
@@ -60,3 +69,4 @@ Sharon was initially hesitant to do this, but Dr. Cho explained how researchers 
 During a recent hospitalization, Tori and Sharon asked Dr. Cho what has happened with Sharon’s consented data: have any new insights emerged? Dr. Cho explained a linkage study completed previously with patient data, including Sharon’s data, and the new hypothesis it generated. Dr. Cho invited Sharon and Tori to join a patient and caregiver advisory council for her research, which Tori ultimately joined. 
  
 During the first advisory council meeting, Tori learned about the Linkage Governance Framework Dr. Cho is using to test the new hypothesis through complex data linkage. Tori was astonished to learn how hard it is to conduct linkage studies, and that Dr. Cho’s research will be groundbreaking if it can link multiple datasets. Tori was glad for federal leadership to break down barriers to research that could help improve Sharon’s life and result in a brighter future for others who develop leukemia. 
+</div>

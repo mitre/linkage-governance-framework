@@ -1,6 +1,7 @@
 ---
-title: A Dataset Holder User Story
-description: 'User story for dataset holders'
+title: "Noah the Dataset Holder"
+subtitle: "Making Data Linkage Accessible for Researchers"
+description: 'Noah works at a federal agency that manages multiple repositories with a range of datasets about cancer, and would like to make it easier for researchers to link data for research.'
 permalink: /userstories/dataset-holder.html
 layout: layouts/page
 section: userstories

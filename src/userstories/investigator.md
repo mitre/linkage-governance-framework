@@ -1,6 +1,7 @@
 ---
-title: An Investigator User Story
-description: 'User story for investigators'
+title: "Leslie the Investigator"
+subtitle: "Seeking Complex Linkage to Enable Innovative Research"
+description: 'Leslie is an early stage investigator, and is proposing a linkage study to explore a hypothesis about Lyme disease.'
 permalink: /userstories/investigator.html
 layout: layouts/page
 section: userstories
