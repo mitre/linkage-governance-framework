@@ -15,16 +15,21 @@ sticky_sidenav: true
 
 
 # Individual-level health data linkage holds promise for innovative research...
-
+<section>
+  <div class="grid-row">
+    <div class="grid-col-8">
 People usually have health data held in multiple systems. Examples include clinical data from an electronic health record (EHR), claims from a health insurer, data from wearables, and data collected during research studies. Making sure these data are, when appropriate, reliably available and transformed into actionable evidence through research and analysis requires is essential for patient-centered outcomes research.  
 
 When this “individual-level health data” from different datasets can be matched and linked, if allowed by consent and when privacy is appropriately protected, the combined dataset has more complete information and a fuller picture of the diverse factors contributing to the person’s health and illness over time. Linking data can drive innovative research questions and accelerates discovery, but can have significant challenges that resesarchers might not anticipate. 
 
 Some linkages of individual-level health data are happening today. For example, the _All of Us_ Research Program asks permission from its participants to link data from EHRs, surveys, and genomic repositories for research. Hundreds of studies have used the _All of Us_ linked data for scientific breakthroughs. However, most datasets have never been linked and many promising safe and appropriate linkages remain out of reach.  
+    </div>
+    <div class="grid-col-4">
 
       {% render 'summary-box.html', title: 'Key Term', body: '<b>Patient-centered outcomes research</b> aims to generate high-quality evidence about the effectiveness of treatments, services, and other health care interventions on the full range of outcomes that patients, caregivers, clinicians, policymakers, and other stakeholders have identified as important.  ' %}
-      
-<section>
+          </div>
+  </div>    
+
   <div class="grid-row">
     <div class="grid-col-8">
 
