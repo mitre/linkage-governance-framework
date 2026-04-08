@@ -22,7 +22,7 @@ The [Linkage Governance Framework](/framework) was piloted through an Operationa
 
 ## Approach
 
-The Operational Exercise engaged participants from Dataset Holders across HHS. MITRE played the role of the Coordinating Body. There were two connected workstreams in the Operational Exercise: 
+The Operational Exercise engaged participants from dataset holders across HHS. MITRE played the role of the coordinating body. There were two connected workstreams in the Operational Exercise: 
 
 - Individual working sessions where participants walked through the Common Governance Process for each use case. 
 - Group working sessions where participants discussed their experience in the process and suggested ways to make the process more efficient. 

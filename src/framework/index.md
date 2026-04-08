@@ -27,7 +27,7 @@ The framework proposes three advances:
 
 ## Elements of the Framework
 
-The Framework has five connected elements that come together to support a new approach for complex linkages of individual-level health data. [Read a text description of Framework elements](framework-elements.html){ .usa-sr-only}
+The framework has five connected elements that come together to support a new approach for complex linkages of individual-level health data. [Read a text description of framework elements](framework-elements.html){ .usa-sr-only}
 
 <div>
 {% svg 'assets/resources/img/lgf-pentagon-hover.svg' %}
