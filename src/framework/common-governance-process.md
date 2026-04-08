@@ -22,16 +22,16 @@ The Common Governance Process is a step-by-step implementation of the Linkage Go
  
 The Common Governance Process is organized into three stages: 
 
-1. **Intake**: the investigator develops and submits a single request package using a template provided by the Coordinating Body. 
-2. **Screening**: Dataset holders review the request package for feasibility. Feasible requests will proceed to the next step. Requests not deemed feasible may receive feedback from the Coordinating Body to support changes that would result in a feasible request.
-3. **Rule Harmonization**:  The Coordinating Body consolidates the rules across datasets, and helps Dataset Holders harmonize rules to overcome rule conflicts. This results in a single, consolidated rule set that can safely govern a proposed linkage and resulting linked dataset.<br>View a diagram of the [Rule Harmonization Process](/framework/rule-harmonization.html).
+1. **Intake**: the investigator develops and submits a single request package using a template provided by the coordinating body. 
+2. **Screening**: Dataset holders review the request package for feasibility. Feasible requests will proceed to the next step. Requests not deemed feasible may receive feedback from the coordinating body to support changes that would result in a feasible request.
+3. **Rule Harmonization**:  The coordinating body consolidates the rules across datasets, and helps dataset holders harmonize rules to overcome rule conflicts. This results in a single, consolidated rule set that can safely govern a proposed linkage and resulting linked dataset.<br>View a diagram of the [Rule Harmonization Process](/framework/rule-harmonization.html).
 
 The Common Governance Process improves the experience of investigators and dataset holders by: 
 
-- Guiding the Investigator's creation of a plan for implementing data linkage
-- Consolidating the information required by various Dataset Holders into a single package 
-- Providing a Coordinating Body to interface between the Investigator and Dataset Holders
-- Synchronizing Dataset Holder review and decision making
+- Guiding the investigator's creation of a plan for implementing data linkage
+- Consolidating the information required by various dataset holders into a single package 
+- Providing a coordinating body to interface between the investigator and dataset holders
+- Synchronizing dataset holder review and decision making
 - Harmonizing governance rules across datasets toward a single rule set to govern the linkage implementation and resulting linked dataset 
 
 

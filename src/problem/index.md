@@ -15,9 +15,11 @@ sticky_sidenav: true
 
 
 # Individual-level health data linkage holds promise for innovative research...
+
 <section>
   <div class="grid-row">
     <div class="grid-col-8">
+
 People usually have health data held in multiple systems. Examples include clinical data from an electronic health record (EHR), claims from a health insurer, data from wearables, and data collected during research studies. Making sure these data are, when appropriate, reliably available and transformed into actionable evidence through research and analysis requires is essential for patient-centered outcomes research.  
 
 When this “individual-level health data” from different datasets can be matched and linked, if allowed by consent and when privacy is appropriately protected, the combined dataset has more complete information and a fuller picture of the diverse factors contributing to the person’s health and illness over time. Linking data can drive innovative research questions and accelerates discovery, but can have significant challenges that resesarchers might not anticipate. 
@@ -50,7 +52,7 @@ While there may be many commonalities between datasets’ governance, each datas
 
 ## Investigators and dataset holders need a new way to overcome challenges and link data for research.
 
-Investigators and Dataset Holders share a common goal to use data linkages to drive research that can improve health and save lives. Linkage governance as it stands today can make innovative complex linkages hard to create.  
+Investigators and dataset holders share a common goal to use data linkages to drive research that can improve health and save lives. Linkage governance as it stands today can make innovative complex linkages hard to create.  
 
 <section>
   <div class="grid-row">
@@ -75,9 +77,9 @@ Investigators and Dataset Holders share a common goal to use data linkages to dr
   <div class="grid-row">
     <div class="grid-col-8">
 
-{% image_with_class "assets/resources/img/dataset-holder.png" "actor-icon" "Icon of Dataset Holder" %}  Dataset holders are responsible for ensuring compliance with the usage rules for their dataset. Complex data linkages create different challenges for them:
+{% image_with_class "assets/resources/img/dataset-holder.png" "actor-icon" "Icon of dataset holder" %}  Dataset holders are responsible for ensuring compliance with the usage rules for their dataset. Complex data linkages create different challenges for them:
 
-- No coordination with other Dataset Holders to codesign complex linkages that comply with governance rules
+- No coordination with other dataset holders to codesign complex linkages that comply with governance rules
 - Time and effort to understand unfamiliar linkage methods and authorize software tools needed to complete complex linkages
 - Time and effort needed to modify existing processes to respond to complex requests
 
