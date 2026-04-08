@@ -42,7 +42,7 @@ Access Controls
 : Mechanisms or policies that restrict and regulate who can access data, under what conditions, and through what systems. Examples include role-based access controls, multi-factor authentication, and secure environments.
 
 Common Governance Framework
-: A structured approach for harmonizing governance rules across datasets and seeking approval from Dataset Holders to enable safe and secure linkage of individual-level health data for research.
+: A structured approach for harmonizing governance rules across datasets and seeking approval from dataset holders to enable safe and secure linkage of individual-level health data for research.
 
 Complex Linkages
 : Linkage of individual-level health data for research where establishing the linkages entails a high level of governance complexity.
@@ -73,7 +73,7 @@ Dataset
 : An organized collection of data. 
 
 Dataset Holder
-: A Data Owner or Data Steward responsible for access to and use of a dataset and compliance with applicable governance.
+: A data owner or data steward responsible for access to and use of a dataset and compliance with applicable governance.
 
 De-identified Data
 : Data for which elements of protected health information and personally identifiable information like names, dates of birth, and phone numbers are removed in order to mitigate privacy risks to individuals. 
