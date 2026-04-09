@@ -17,7 +17,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
       {% assign _current = true %}
       {% endif %}
       <li class="usa-sidenav__item">
-        <a href="{{ link.url | url }}" {% if _current %} class="usa-current" {% endif %}>
+        <a href="{{ link.url }}" {% if _current %} class="usa-current" {% endif %}>
           {{ link.title }}
         </a>
         {% if subnav and _current %}
@@ -27,7 +27,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
             {% if my_string[0] == "#" %}
             <a href="{{ heading.href }}"> {{ heading.text }} </a>
             {% else %}
-            <a href="{{ heading.href | url }}"> {{ heading.text }} </a>
+            <a href="{{ heading.href }}"> {{ heading.text }} </a>
             {% endif %}
           </li>
         </ul>
