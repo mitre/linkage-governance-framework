@@ -18,7 +18,7 @@ const { imageShortcode, imageWithClassShortcode, imageUrl } = require('./config'
 
 module.exports = function(config) {
   // Set pathPrefix for site
-  let pathPrefix = '/linkage-governance-framework/';
+  let pathPrefix = '/';
 
   config.addPlugin(EleventyRenderPlugin);
   config.addPlugin(HtmlBasePlugin);
@@ -80,7 +80,7 @@ module.exports = function(config) {
 
   // If BASEURL env variable exists, update pathPrefix to the BASEURL
   if (process.env.BASEURL) {
-    pathPrefix = process.env.BASEURL
+ //   pathPrefix = process.env.BASEURL
   }
 
 
