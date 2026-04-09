@@ -18,7 +18,7 @@ const { imageShortcode, imageWithClassShortcode, imageUrl } = require('./config'
 
 module.exports = function(config) {
   // Set pathPrefix for site
-  let pathPrefix = '/';
+  let pathPrefix = '/linkage-governance-framework/';
 
   config.addPlugin(EleventyRenderPlugin);
   config.addPlugin(HtmlBasePlugin);
